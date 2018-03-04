@@ -1,0 +1,84 @@
+@font-face 
+{
+    font-family: bigFont;
+    font-weight: bold;
+    src: url(font/GothamMedium.otf);
+}
+
+@font-face 
+{
+    font-family: smallFont;
+    src: url(font/GothamLightRegular.otf);
+}
+
+html 
+{
+	height:100%;
+}
+
+body
+{
+	background: url(images/bg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	font-family: bigFont;
+	color: white;
+	font-size: 36px;
+}
+
+header
+{
+	font-family: smallFont;
+}
+
+.parallax 
+{
+    /* The image used */
+    background-image: url(images/lasalle.png);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-default {
+	border: 0;
+	background: #ffffff;
+}
+.dropdown-menu {
+	background: #FAD149;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-default .navbar-nav li a {
+	color: #031044;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav li a:hover {
+	background: #FAD149;
+}
+.navbar-default .navbar-nav .dropdown-menu li a:hover {
+	background: #E32421;
+}
+.dropdown-menu li a {
+	padding: 10px;
+}
